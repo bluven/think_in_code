@@ -1,4 +1,4 @@
-# 的三要素
+# 语言的三要素
 
 django generic view
 
