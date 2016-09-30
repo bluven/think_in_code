@@ -1,14 +1,5 @@
-# 的三要素
+# 语言的三要素
 
-django generic view
-
-java 数据流，装饰器模式
-
-linux pipe，单一职责，
-
-数字电路：与，或，非 三种逻辑
-
-redis clien实现
 
 ## 语言的基本要素
 
