@@ -2,7 +2,11 @@
 
 ## Questions
 
-* What are the elements of a computer’s architecture?* What are some common alternate computer architectures?* How does Python abstract the underlying computer architecture?* What are some of the hurdles to making performant Python code?* What are the different types of performance problems?
+* What are the elements of a computer’s architecture?
+* What are some common alternate computer architectures?
+* How does Python abstract the underlying computer architecture?
+* What are some of the hurdles to making performant Python code?
+* What are the different types of performance problems?
 
 ## The Fundamental Computer System
 
@@ -70,13 +74,20 @@ It is clear, then, that the main property of a bus is its speed: how much data i
 
 ## Idealized Computing Versus the Python Virtual Machine
 
-Let’s analyze this code using our abstract model of computation and then draw com‐ parisons to what happens when Python runs this code. As with any abstraction, we will neglect many of the subtleties in both the idealized computer and the way that Python runs the code. However, this is generally a good exercise to perform before solving a problem: think about the general components of the algorithm and what would be the best way for the computing components to come together in order to find a solution. By understanding this ideal situation and having knowledge of what is actually hap‐ pening under the hood in Python, we can iteratively bring our Python code closer to the optimal code.
+Let’s analyze this code using our abstract model of computation and then draw comparisons to what happens when Python runs this code. As with any abstraction, we will neglect many of the subtleties in both the idealized computer and the way that Python runs the code. However, this is generally a good exercise to perform before solving a problem: think about the general components of the algorithm and what would be the best way for the computing components to come together in order to find a solution. By understanding this ideal situation and having knowledge of what is actually hap‐ pening under the hood in Python, we can iteratively bring our Python code closer to the optimal code.
 
 Code Example:
 
 ```python
-import mathdef check_prime(number):    sqrt_number = math.sqrt(number) number_float = float(number)    for i in xrange(2, int(sqrt_number)+1):        if (number_float / i).is_integer(): return False    return True
-    print "check_prime(10000000) = ", check_prime(10000000) # Falseprint "check_prime(10000019) = ", check_prime(10000019) # True
+import math
+def check_prime(number):
+    sqrt_number = math.sqrt(number) number_float = float(number)
+    for i in xrange(2, int(sqrt_number)+1):
+        if (number_float / i).is_integer(): return False
+    return True
+    
+print "check_prime(10000000) = ", check_prime(10000000) # False
+print "check_prime(10000019) = ", check_prime(10000019) # True
 ```
 
 ### Idealized computing
@@ -88,9 +99,14 @@ import mathdef check_prime(number):    sqrt_number = math.sqrt(number) number_
 Idealized Code:
 
 ```python
-import mathdef check_prime(number):    sqrt_number = math.sqrt(number) 
-    number_float = float(number)    numbers = range(2, int(sqrt_number)+1) 
-    for i in xrange(0, len(numbers), 5):        # the following line is not valid Python code        result = (number_float / numbers[i:(i+5)]).is_integer() 
+import math
+def check_prime(number):
+    sqrt_number = math.sqrt(number) 
+    number_float = float(number)
+    numbers = range(2, int(sqrt_number)+1) 
+    for i in xrange(0, len(numbers), 5):
+        # the following line is not valid Python code
+        result = (number_float / numbers[i:(i+5)]).is_integer() 
         if any(result):
             return False 
             
@@ -99,3 +115,12 @@ import mathdef check_prime(number):    sqrt_number = math.sqrt(number)
 
 上面的代码是伪代码，它让cpu可以在同一时间执行5个检测，从而提高了效率。
 
+### Python’s virtual machine
+
+Python对底层的计算元素做了抽象，例如，程序员不需要关心如何为数组分配内存，如何排列. 但这层抽象也使得一些优化变得困难，例如向量化，L1/L2缓存不可用。
+
+Python的抽象伤害了任何利用L1/L2的优化方式，影响因素有很多。第一个因素是python的对象不是以最优的方式存放在内存中，这是因为python的垃圾回收机制导致了内存碎片，妨碍了内存与CPU缓存的数据传输。除此之外，没有任何方法改变内存中的数据结构布局(layout of data structure)，也就意味着总线上的一次传输可能未必将计算有关的所有数据都运输过去，及时总线的宽度式够的。
+
+第二个因素就是Python的动态类型及非编译型语言特性。编译器通常比人聪明些，但编译静态代码时，编译器可以改变内存的布局及cpu运行某些指令的方式。 因为python的动态特性，使得它的代码功能在运行时可能会改变，从而使得这类优化很困难。使用Cython可以允许python代码被编译，也允许用户在代码里为编译器做些暗示。
+
+第三个因素是GIL，它使得python利用多核变得困难。为了利用多核，通常要使用multiprocessing模块，Cython或者外部函数。
