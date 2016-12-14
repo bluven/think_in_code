@@ -1,18 +1,18 @@
 # 大杂烩
 
 ## CI/CD
-[持续集成是什么？][1]
-[如何理解持续集成、持续交付、持续部署？][2]
-[持续部署，并不简单！][3]
-[Continuous Deployment with Containers][4]
-[通过Docker容器运行持续集成/持续部署][5]
-[Docker 持续部署图文详解][6](原文)
-[Jenkins+Git+Maven+Shell+Tomcat 持续集成部署环境大众化解决方案][7]
-[DockOne技术分享（九）：持续集成和“云”][8]
-[Deploying at GitHub][9]
-[HOW TO DEPLOY SOFTWARE][10]
-一个CI/CD博客[flow.ci][11]
-[Continuous Integration架构设计][12]
+[持续集成是什么？][1]  
+[如何理解持续集成、持续交付、持续部署？][2]  
+[持续部署，并不简单！][3]  
+[Continuous Deployment with Containers][4]  
+[通过Docker容器运行持续集成/持续部署][5]  
+[Docker 持续部署图文详解][6](原文)  
+[Jenkins+Git+Maven+Shell+Tomcat 持续集成部署环境大众化解决方案][7]  
+[DockOne技术分享（九）：持续集成和“云”][8]  
+[Deploying at GitHub][9]  
+[HOW TO DEPLOY SOFTWARE][10]  
+一个CI/CD博客[flow.ci][11]  
+[Continuous Integration架构设计][12]  
 
 ## 架构
 
