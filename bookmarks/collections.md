@@ -28,40 +28,60 @@
 
 ## 数据库
 [Architecture of a Database System][21]   
+[Evolutionary Database Design][22]
 
 ### Soft Delete
 
-[Soft Delete vs Hard Delete][22]  
-[Don’t Delete – Just Don’t][23]  
-[The trouble with soft delete][24]  
-[Why soft deletes are evil and what to do instead][25]  
+[Soft Delete vs Hard Delete][23]  
+[Don’t Delete – Just Don’t][24]  
+[The trouble with soft delete][25]  
+[Why soft deletes are evil and what to do instead][26]  
 
 ## Golang
-[Standard Package Layout][26]  
-[SOLID Go Design][27]  
+[Standard Package Layout][27]  
+[SOLID Go Design][28]  
+[Canonical import paths in Golang][29]
 
 ### Performance
-[Handling 1 Million Requests per Minute with Go][28] (需翻墙)  
+[Handling 1 Million Requests per Minute with Go][30] (需翻墙)  
 
 ## Python
-[Handling Unicode Strings in Python][29]  
-[Pragmatic Unicode][30]  
+[Handling Unicode Strings in Python][31]  
+[Pragmatic Unicode][32]  
+
+### Packaging Python Modules
+
+[Sharing Your Labor of Love: PyPI Quick and Dirty][33]
 
 ### django
-[How to develop/include a Django custom reusable app in a new project? Are there some guidelines? ][31]  
+[How to develop/include a Django custom reusable app in a new project? Are there some guidelines? ][34]   
+[Enable setup.py test in your Django apps][35]  
+[Package Your Python Django Application into a Reusable Component][36]  
+[How to develop/include a Django custom reusable app in a new project?][37]
 
+### Test
+[An Introduction to Mocking in Python][38]  
+[Skipping Test DB Creation (Django)][39]  
+[Effective TDD: Tricks to speed up Django tests (up to 10x faster!)][40]  
+[Using pytest with Django][41]  
+[Test a Reusable Django Application for Support of Multiple Django Releases with Tox and TravisCI][42]  
+[DEVELOPING DJANGO APPS WITH ZC.BUILDOUT][43]  
+[mbrochh/tdd-with-django-reusable-app][44]  
+[Maintaining Reusable Django Apps with Tox][45]  
+[QUICK GUIDE TO CREATING REUSABLE DJANGO APPS][46]  
 
 ## Javascript
 
-[ECMAScript 6 — New Features: Overview & Comparison][32]  
+[ECMAScript 6 — New Features: Overview & Comparison][47]  
 
 ## 缓存
-[利用redis缓存热门数据，分页的一种思路][33]  
-[移动端列表缓存/分页问题][34]  
-[为什么超长列表数据的翻页技术实现复杂（二）][35]  
-[缓存更新的套路][36]  
-[Caching Pattern][37]  
-[Scaling Memcache at Facebook][38]  
+[利用redis缓存热门数据，分页的一种思路][48]  
+[移动端列表缓存/分页问题][49]  
+[为什么超长列表数据的翻页技术实现复杂（二）][50]  
+[缓存更新的套路][51]  
+[Caching Pattern][52]  
+[Scaling Memcache at Facebook][53]  
+
 
   [1]: http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html
   [2]: https://www.zhihu.com/question/23444990
@@ -84,20 +104,35 @@
   [19]: https://docs.docker.com/registry/spec/auth/jwt/
   [20]: http://geek.csdn.net/news/detail/109110
   [21]: https://blog.acolyer.org/2015/01/20/architecture-of-a-database-system/
-  [22]: http://rohithegde.github.io/soft-vs-hard-delete/
-  [23]: http://udidahan.com/2009/09/01/dont-delete-just-dont/
-  [24]: http://rdingwall.com/2009/11/20/the-trouble-with-soft-delete/
-  [25]: http://jameshalsall.co.uk/posts/why-soft-deletes-are-evil-and-what-to-do-instead
-  [26]: https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1#.wqta80kf1
-  [27]: https://dave.cheney.net/2016/08/20/solid-go-design?utm_source=golangweekly&utm_medium=email
-  [28]: http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/
-  [29]: http://blog.emacsos.com/unicode-in-python.html
-  [30]: http://nedbatchelder.com/text/unipain.html
-  [31]: http://blogs.candoerz.com/question/145773/how-to-developinclude-a-django-custom-reusable-app-in-a-new-project-are-there-some-guidelines.aspx
-  [32]: http://es6-features.org/#Constants
-  [33]: http://blog.csdn.net/hengyunabc/article/details/23401539
-  [34]: http://www.jianshu.com/p/af406cb819e5
-  [35]: http://timyang.net/data/key-list-pagination-ii/
-  [36]: http://coolshell.cn/articles/17416.html
-  [37]: http://kircher-schwanninger.de/michael/publications/Caching.pdf
-  [38]: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+  [22]: http://www.martinfowler.com/articles/evodb.html
+  [23]: http://rohithegde.github.io/soft-vs-hard-delete/
+  [24]: http://udidahan.com/2009/09/01/dont-delete-just-dont/
+  [25]: http://rdingwall.com/2009/11/20/the-trouble-with-soft-delete/
+  [26]: http://jameshalsall.co.uk/posts/why-soft-deletes-are-evil-and-what-to-do-instead
+  [27]: https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1#.wqta80kf1
+  [28]: https://dave.cheney.net/2016/08/20/solid-go-design?utm_source=golangweekly&utm_medium=email
+  [29]: https://texlution.com/post/golang-canonical-import-paths/
+  [30]: http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/
+  [31]: http://blog.emacsos.com/unicode-in-python.html
+  [32]: http://nedbatchelder.com/text/unipain.html
+  [33]: https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/
+  [34]: http://blogs.candoerz.com/question/145773/how-to-developinclude-a-django-custom-reusable-app-in-a-new-project-are-there-some-guidelines.aspx
+  [35]: http://ericholscher.com/blog/2009/jun/29/enable-setuppy-test-your-django-apps/
+  [36]: http://pythoncentral.io/package-python-django-application-reusable-component/
+  [37]: http://stackoverflow.com/questions/30743720/how-to-develop-include-a-django-custom-reusable-app-in-a-new-project-are-there
+  [38]: https://www.toptal.com/python/an-introduction-to-mocking-in-python
+  [39]: https://www.caktusgroup.com/blog/2013/10/02/skipping-test-db-creation/
+  [40]: http://www.daveoncode.com/2013/09/23/effective-tdd-tricks-to-speed-up-django-tests-up-to-10x-faster/
+  [41]: http://engineroom.trackmaven.com/blog/using-pytest-with-django/
+  [42]: http://joebergantine.com/blog/2015/dec/03/test-reusable-django-application-support-multiple-/
+  [43]: https://jacobian.org/writing/django-apps-with-buildout/
+  [44]: https://github.com/mbrochh/tdd-with-django-reusable-app
+  [45]: http://martinbrochhaus.com/tox.html
+  [46]: http://racingtadpole.com/blog/reusable-django-apps/
+  [47]: http://es6-features.org/#Constants
+  [48]: http://blog.csdn.net/hengyunabc/article/details/23401539
+  [49]: http://www.jianshu.com/p/af406cb819e5
+  [50]: http://timyang.net/data/key-list-pagination-ii/
+  [51]: http://coolshell.cn/articles/17416.html
+  [52]: http://kircher-schwanninger.de/michael/publications/Caching.pdf
+  [53]: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
