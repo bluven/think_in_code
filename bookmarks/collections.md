@@ -82,6 +82,36 @@
 [Caching Pattern][52]  
 [Scaling Memcache at Facebook][53]  
 
+## Restful
+[Best Practices for Designing a Pragmatic RESTful API][54]  
+[REST best practices][55]  
+[Best Practices REST API from Scratch – Introduction][56]  
+[10 Best Practices for Better RESTful API][57]  
+[RESTful API 设计指南][58]  
+[理解RESTful架构][59]  
+[撰写合格的REST API][60]  
+[Choosing an HTTP Status Code — Stop Making It Hard][61]  
+[Rest API 的那些事儿][62]  
+[Principles of good RESTful API Design][63]  
+[REST Is Not About APIs, Part 1][64]  
+[Microsoft REST API Guidelines][65]  
+[Thoughts on RESTful API Design][66]  
+[REST and long-running jobs][67]  
+[Long running REST API with queues][68]  
+[restful-api-design-references][69]  
+[API设计系列文章][70]  
+[理解本真的REST架构风格][71]  
+[Restful API 的设计规范][72]  
+[Learn REST: A RESTful Tutorial][73]  
+[来自于PayPal的RESTful API标准][74]  
+[HTTP API Design Guide][75]  
+[How to design a REST API][76]  
+
+### 案例
+[https://developer.paypal.com/docs/api/][77]  
+[https://www.twilio.com/docs/api][78]  
+[https://github.com/waylau/RestDemo][79]  
+
 
   [1]: http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html
   [2]: https://www.zhihu.com/question/23444990
@@ -136,3 +166,29 @@
   [51]: http://coolshell.cn/articles/17416.html
   [52]: http://kircher-schwanninger.de/michael/publications/Caching.pdf
   [53]: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+  [54]: http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#versioning
+  [55]: https://bourgeois.me/rest/
+  [56]: https://www.sitepoint.com/best-practices-rest-api-scratch-introduction/
+  [57]: http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/
+  [58]: http://www.ruanyifeng.com/blog/2014/05/restful_api.html
+  [59]: http://www.ruanyifeng.com/blog/2011/09/restful
+  [60]: http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208060670&idx=1&sn=ce67b8896985e8448137052b338093e0&scene=21#wechat_redirect
+  [61]: http://racksburg.com/choosing-an-http-status-code/
+  [62]: http://www.ituring.com.cn/article/208878
+  [63]: https://codeplanet.io/principles-good-restful-api-design/
+  [64]: http://www.nirmata.com/2013/10/rest-apis-part-1/
+  [65]: https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
+  [66]: https://restful-api-design.readthedocs.io/en/latest/
+  [67]: http://farazdagi.com/blog/2014/rest-long-running-jobs/
+  [68]: http://stackoverflow.com/questions/33009721/long-running-rest-api-with-queues
+  [69]: https://github.com/aisuhua/restful-api-design-references
+  [70]: http://www.jianshu.com/p/261cad07f02b
+  [71]: http://blog.sae.sina.com.cn/archives/370
+  [72]: http://novoland.github.io/%E8%AE%BE%E8%AE%A1/2015/08/17/Restful%20API%20%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.html
+  [73]: http://www.restapitutorial.com/
+  [74]: https://segmentfault.com/a/1190000005924733
+  [75]: https://geemus.gitbooks.io/http-api-design/content/en/
+  [76]: http://blog.octo.com/en/design-a-rest-api/
+  [77]: https://developer.paypal.com/docs/api/
+  [78]: https://www.twilio.com/docs/api
+  [79]: https://github.com/waylau/RestDemo
