@@ -108,11 +108,12 @@
 [来自于PayPal的RESTful API标准][76]  
 [HTTP API Design Guide][77]  
 [How to design a REST API][78]  
+[Choosing the Best Approach for Partial Updates in REST API][79]  
 
 ### 案例
-[https://developer.paypal.com/docs/api/][79]  
-[https://www.twilio.com/docs/api][80]  
-[https://github.com/waylau/RestDemo][81]  
+[https://developer.paypal.com/docs/api/][80]  
+[https://www.twilio.com/docs/api][81]  
+[https://github.com/waylau/RestDemo][82]  
 
 
   [1]: http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html
@@ -193,6 +194,7 @@
   [76]: https://segmentfault.com/a/1190000005924733
   [77]: https://geemus.gitbooks.io/http-api-design/content/en/
   [78]: http://blog.octo.com/en/design-a-rest-api/
-  [79]: https://developer.paypal.com/docs/api/
-  [80]: https://www.twilio.com/docs/api
-  [81]: https://github.com/waylau/RestDemo
+  [79]: http://www.apuchkov.com/choosing-the-best-approach-for-partial-updates-in-rest-api/
+  [80]: https://developer.paypal.com/docs/api/
+  [81]: https://www.twilio.com/docs/api
+  [82]: https://github.com/waylau/RestDemo
