@@ -1,6 +1,7 @@
 # What is RSS and VSZ in Linux memory management
 
 
+
 RSS is the Resident Set Size and is used to show how much memory is allocated to that process and is in RAM. It does not include memory that is swapped out. It does include memory from shared libraries as long as the pages from those libraries are actually in memory. It does include all stack and heap memory.
 
 VSZ is the Virtual Memory Size. It includes all memory that the process can access, including memory that is swapped out, memory that is allocated, but not used, and memory that is from shared libraries.
@@ -20,3 +21,5 @@ There is also PSS (proportional set size). This is a newer measure which tracks 
 > PSS: 400K + (1000K/2) + 100K = 400K + 500K + 100K = 1000K
 
 Threads all share the same address space, so the RSS, VSZ and PSS for each thread is identical to all of the other threads in the process. Use ps or top to view this information in linux/unix.
+
+[原文](https://stackoverflow.com/questions/7880784/what-is-rss-and-vsz-in-linux-memory-management)
