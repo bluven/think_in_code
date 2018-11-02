@@ -66,105 +66,105 @@
 [gevent程序员指南][46]  
 [gevent For the Working Python Developer][47]  
 [Web Service Efficiency at Instagram with Python – Instagram Engineering][48]  
-
+[Python Application Layouts: A Reference][49]  
 
 ### Packaging Python Modules
 
-[Sharing Your Labor of Love: PyPI Quick and Dirty][49]
+[Sharing Your Labor of Love: PyPI Quick and Dirty][50]
 
 ### django
-[How to develop/include a Django custom reusable app in a new project? Are there some guidelines? ][50]   
-[Enable setup.py test in your Django apps][51]  
-[Package Your Python Django Application into a Reusable Component][52]  
-[How to develop/include a Django custom reusable app in a new project?][53]
+[How to develop/include a Django custom reusable app in a new project? Are there some guidelines? ][51]   
+[Enable setup.py test in your Django apps][52]  
+[Package Your Python Django Application into a Reusable Component][53]  
+[How to develop/include a Django custom reusable app in a new project?][54]
 
 ### Test
-[An Introduction to Mocking in Python][54]  
-[Skipping Test DB Creation (Django)][55]  
-[Effective TDD: Tricks to speed up Django tests (up to 10x faster!)][56]  
-[Using pytest with Django][57]  
-[Test a Reusable Django Application for Support of Multiple Django Releases with Tox and TravisCI][58]  
-[DEVELOPING DJANGO APPS WITH ZC.BUILDOUT][59]  
-[mbrochh/tdd-with-django-reusable-app][60]  
-[Maintaining Reusable Django Apps with Tox][61]  
-[QUICK GUIDE TO CREATING REUSABLE DJANGO APPS][62]  
-[Principles of Automated Testing][63]
+[An Introduction to Mocking in Python][55]  
+[Skipping Test DB Creation (Django)][56]  
+[Effective TDD: Tricks to speed up Django tests (up to 10x faster!)][57]  
+[Using pytest with Django][58]  
+[Test a Reusable Django Application for Support of Multiple Django Releases with Tox and TravisCI][59]  
+[DEVELOPING DJANGO APPS WITH ZC.BUILDOUT][60]  
+[mbrochh/tdd-with-django-reusable-app][61]  
+[Maintaining Reusable Django Apps with Tox][62]  
+[QUICK GUIDE TO CREATING REUSABLE DJANGO APPS][63]  
+[Principles of Automated Testing][64]
 
 ## Javascript
 
-[ECMAScript 6 — New Features: Overview & Comparison][64]  
+[ECMAScript 6 — New Features: Overview & Comparison][65]  
 
 ## 缓存
-[利用redis缓存热门数据，分页的一种思路][65]  
-[移动端列表缓存/分页问题][66]  
-[为什么超长列表数据的翻页技术实现复杂（二）][67]  
-[缓存更新的套路][68]  
-[Caching Pattern][69]  
-[Scaling Memcache at Facebook][70]  
-[分布式缓存的一起问题][71]  
+[利用redis缓存热门数据，分页的一种思路][66]  
+[移动端列表缓存/分页问题][67]  
+[为什么超长列表数据的翻页技术实现复杂（二）][68]  
+[缓存更新的套路][69]  
+[Caching Pattern][70]  
+[Scaling Memcache at Facebook][71]  
+[分布式缓存的一起问题][72]  
 
 ## Restful
-[Best Practices for Designing a Pragmatic RESTful API][72]  
-[REST best practices][73]  
-[Best Practices REST API from Scratch – Introduction][74]  
-[10 Best Practices for Better RESTful API][75]  
-[RESTful API 设计指南][76]  
-[理解RESTful架构][77]  
-[撰写合格的REST API][78]  
-[Choosing an HTTP Status Code — Stop Making It Hard][79]  
-[Rest API 的那些事儿][80]  
-[Principles of good RESTful API Design][81]  
-[REST Is Not About APIs, Part 1][82]  
-[Microsoft REST API Guidelines][83]  
-[Thoughts on RESTful API Design][84]  
-[REST and long-running jobs][85]  
-[Long running REST API with queues][86]  
-[restful-api-design-references][87]  
-[API设计系列文章][88]  
-[理解本真的REST架构风格][89]  
-[Restful API 的设计规范][90]  
-[Learn REST: A RESTful Tutorial][91]  
-[来自于PayPal的RESTful API标准][92]  
-[HTTP API Design Guide][93]  
-[How to design a REST API][94]  
-[Choosing the Best Approach for Partial Updates in REST API][95]  
-[5 Golden Rules for Great Web API Design][96]  
-[Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet][97]  
-[Is your Web API susceptible to a CSRF exploit?][98]  
-[The Caching Antipattern][99]  
-[RESTful API设计技巧经验总结][100]  
-[The Basics of Web Application Security][101]  
+[Best Practices for Designing a Pragmatic RESTful API][73]  
+[REST best practices][74]  
+[Best Practices REST API from Scratch – Introduction][75]  
+[10 Best Practices for Better RESTful API][76]  
+[RESTful API 设计指南][77]  
+[理解RESTful架构][78]  
+[撰写合格的REST API][79]  
+[Choosing an HTTP Status Code — Stop Making It Hard][80]  
+[Rest API 的那些事儿][81]  
+[Principles of good RESTful API Design][82]  
+[REST Is Not About APIs, Part 1][83]  
+[Microsoft REST API Guidelines][84]  
+[Thoughts on RESTful API Design][85]  
+[REST and long-running jobs][86]  
+[Long running REST API with queues][87]  
+[restful-api-design-references][88]  
+[API设计系列文章][89]  
+[理解本真的REST架构风格][90]  
+[Restful API 的设计规范][91]  
+[Learn REST: A RESTful Tutorial][92]  
+[来自于PayPal的RESTful API标准][93]  
+[HTTP API Design Guide][94]  
+[How to design a REST API][95]  
+[Choosing the Best Approach for Partial Updates in REST API][96]  
+[5 Golden Rules for Great Web API Design][97]  
+[Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet][98]  
+[Is your Web API susceptible to a CSRF exploit?][99]  
+[The Caching Antipattern][100]  
+[RESTful API设计技巧经验总结][101]  
+[The Basics of Web Application Security][102]  
 
 
 ### 案例
-[https://developer.paypal.com/docs/api/][102]  
-[https://www.twilio.com/docs/api][103]  
-[https://github.com/waylau/RestDemo][104]  
+[https://developer.paypal.com/docs/api/][103]  
+[https://www.twilio.com/docs/api][104]  
+[https://github.com/waylau/RestDemo][105]  
 
 ## Nginx
 
-[Stateless Authentication implementation using JWT, Nginx+Lua and Memcached][105]  
-[Playing HTTP Tricks with Nginx][106]  
+[Stateless Authentication implementation using JWT, Nginx+Lua and Memcached][106]  
+[Playing HTTP Tricks with Nginx][107]  
 
 ## HTTP
-[HTTP Cookies Explained][107]  
-[HTTP cookies 详解][108]  
+[HTTP Cookies Explained][108]  
+[HTTP cookies 详解][109]  
 
 ## 杂项
 
-[Leaf——美团点评分布式ID生成系统][109]  
-[Sharding & IDs at Instagram – Instagram Engineering][110]  
-[Streaming MySQL tables in real-time to Kafka][111]  
-[An overview of realtime protocols][112]
-[论面向组合子程序设计方法][113]  
-[Your API-Centric Web App Is Probably Not Safe Against XSS and CSRF][114]  
-[An overview of dealing with Git and SSH keys.][115]  
-[如何解决微服务架构中的雪崩问题？][116]  
+[Leaf——美团点评分布式ID生成系统][110]  
+[Sharding & IDs at Instagram – Instagram Engineering][111]  
+[Streaming MySQL tables in real-time to Kafka][112]  
+[An overview of realtime protocols][113]
+[论面向组合子程序设计方法][114]  
+[Your API-Centric Web App Is Probably Not Safe Against XSS and CSRF][115]  
+[An overview of dealing with Git and SSH keys.][116]  
+[如何解决微服务架构中的雪崩问题？][117]  
 
 
 ## 性能
 
-[How we fine-tuned HAProxy to achieve 2,000,000 concurrent SSL connections][117]
+[How we fine-tuned HAProxy to achieve 2,000,000 concurrent SSL connections][118]
 
 
   [1]: http://www.imgeek.org/article/825308672
@@ -215,72 +215,73 @@
   [46]: http://xlambda.com/gevent-tutorial/#greenlet
   [47]: http://sdiehl.github.io/gevent-tutorial/
   [48]: https://engineering.instagram.com/web-service-efficiency-at-instagram-with-python-4976d078e366
-  [49]: https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/
-  [50]: http://blogs.candoerz.com/question/145773/how-to-developinclude-a-django-custom-reusable-app-in-a-new-project-are-there-some-guidelines.aspx
-  [51]: http://ericholscher.com/blog/2009/jun/29/enable-setuppy-test-your-django-apps/
-  [52]: http://pythoncentral.io/package-python-django-application-reusable-component/
-  [53]: http://stackoverflow.com/questions/30743720/how-to-develop-include-a-django-custom-reusable-app-in-a-new-project-are-there
-  [54]: https://www.toptal.com/python/an-introduction-to-mocking-in-python
-  [55]: https://www.caktusgroup.com/blog/2013/10/02/skipping-test-db-creation/
-  [56]: http://www.daveoncode.com/2013/09/23/effective-tdd-tricks-to-speed-up-django-tests-up-to-10x-faster/
-  [57]: http://engineroom.trackmaven.com/blog/using-pytest-with-django/
-  [58]: http://joebergantine.com/blog/2015/dec/03/test-reusable-django-application-support-multiple-/
-  [59]: https://jacobian.org/writing/django-apps-with-buildout/
-  [60]: https://github.com/mbrochh/tdd-with-django-reusable-app
-  [61]: http://martinbrochhaus.com/tox.html
-  [62]: http://racingtadpole.com/blog/reusable-django-apps/
-  [63]: http://www.lihaoyi.com/post/PrinciplesofAutomatedTesting.html
-  [64]: http://es6-features.org/#Constants
-  [65]: http://blog.csdn.net/hengyunabc/article/details/23401539
-  [66]: http://www.jianshu.com/p/af406cb819e5
-  [67]: http://timyang.net/data/key-list-pagination-ii/
-  [68]: http://coolshell.cn/articles/17416.html
-  [69]: http://kircher-schwanninger.de/michael/publications/Caching.pdf
-  [70]: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
-  [71]: https://timyang.net/data/cache-failure/
-  [72]: http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#versioning
-  [73]: https://bourgeois.me/rest/
-  [74]: https://www.sitepoint.com/best-practices-rest-api-scratch-introduction/
-  [75]: http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/
-  [76]: http://www.ruanyifeng.com/blog/2014/05/restful_api.html
-  [77]: http://www.ruanyifeng.com/blog/2011/09/restful
-  [78]: http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208060670&idx=1&sn=ce67b8896985e8448137052b338093e0&scene=21#wechat_redirect
-  [79]: http://racksburg.com/choosing-an-http-status-code/
-  [80]: http://www.ituring.com.cn/article/208878
-  [81]: https://codeplanet.io/principles-good-restful-api-design/
-  [82]: http://www.nirmata.com/2013/10/rest-apis-part-1/
-  [83]: https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
-  [84]: https://restful-api-design.readthedocs.io/en/latest/
-  [85]: http://farazdagi.com/blog/2014/rest-long-running-jobs/
-  [86]: http://stackoverflow.com/questions/33009721/long-running-rest-api-with-queues
-  [87]: https://github.com/aisuhua/restful-api-design-references
-  [88]: http://www.jianshu.com/p/261cad07f02b
-  [89]: http://blog.sae.sina.com.cn/archives/370
-  [90]: http://novoland.github.io/%E8%AE%BE%E8%AE%A1/2015/08/17/Restful%20API%20%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.html
-  [91]: http://www.restapitutorial.com/
-  [92]: https://segmentfault.com/a/1190000005924733
-  [93]: https://geemus.gitbooks.io/http-api-design/content/en/
-  [94]: http://blog.octo.com/en/design-a-rest-api/
-  [95]: http://www.apuchkov.com/choosing-the-best-approach-for-partial-updates-in-rest-api/
-  [96]: https://www.toptal.com/api-developers/5-golden-rules-for-designing-a-great-web-api
-  [97]: https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet#General_Recommendation:_Synchronizer_Token_Pattern
-  [98]: https://mathieu.fenniak.net/is-your-web-api-susceptible-to-a-csrf-exploit/
-  [99]: https://www.hidefsoftware.co.uk/2016/12/25/the-caching-antipattern/?utm_source=wanqu.co&utm_campaign=Wanqu%20Daily&utm_medium=social
-  [100]: http://geek.csdn.net/news/detail/201132
-  [101]: https://martinfowler.com/articles/web-security-basics.html
-  [102]: https://developer.paypal.com/docs/api/
-  [103]: https://www.twilio.com/docs/api
-  [104]: https://github.com/waylau/RestDemo
-  [105]: https://blog.imaginea.com/stateless-authentication-implementation-using-jwt-nginxlua-and-memcached/
-  [106]: https://www.elastic.co/blog/playing-http-tricks-nginx
-  [107]: https://www.nczonline.net/blog/2009/05/05/http-cookies-explained/
-  [108]: http://bubkoo.com/2014/04/21/http-cookies-explained/
-  [109]: https://tech.meituan.com/MT_Leaf.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
-  [110]: https://engineering.instagram.com/sharding-ids-at-instagram-1cf5a71e5a5c
-  [111]: https://engineeringblog.yelp.com/2016/08/streaming-mysql-tables-in-real-time-to-kafka.html
-  [112]: https://blog.deepstreamhub.com/an-overview-of-realtime-protocols-7d0489778c12
-  [113]: http://www.blogjava.net/ajoo/category/6968.html
-  [114]: http://www.redotheweb.com/2015/11/09/api-security.html
-  [115]: https://coderwall.com/p/uwtekg/an-overview-of-dealing-with-git-and-ssh-keys
-  [116]: https://mp.weixin.qq.com/s?__biz=MzIwMzg1ODcwMw==&mid=2247486271&amp;idx=1&amp;sn=aa1341e27fb3ce11c47879b1f5598c6c&source=41#wechat_redirect
-  [117]: https://medium.freecodecamp.com/how-we-fine-tuned-haproxy-to-achieve-2-000-000-concurrent-ssl-connections-d017e61a4d27
+  [49]: https://realpython.com/python-application-layouts/
+  [50]: https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/
+  [51]: http://blogs.candoerz.com/question/145773/how-to-developinclude-a-django-custom-reusable-app-in-a-new-project-are-there-some-guidelines.aspx
+  [52]: http://ericholscher.com/blog/2009/jun/29/enable-setuppy-test-your-django-apps/
+  [53]: http://pythoncentral.io/package-python-django-application-reusable-component/
+  [54]: http://stackoverflow.com/questions/30743720/how-to-develop-include-a-django-custom-reusable-app-in-a-new-project-are-there
+  [55]: https://www.toptal.com/python/an-introduction-to-mocking-in-python
+  [56]: https://www.caktusgroup.com/blog/2013/10/02/skipping-test-db-creation/
+  [57]: http://www.daveoncode.com/2013/09/23/effective-tdd-tricks-to-speed-up-django-tests-up-to-10x-faster/
+  [58]: http://engineroom.trackmaven.com/blog/using-pytest-with-django/
+  [59]: http://joebergantine.com/blog/2015/dec/03/test-reusable-django-application-support-multiple-/
+  [60]: https://jacobian.org/writing/django-apps-with-buildout/
+  [61]: https://github.com/mbrochh/tdd-with-django-reusable-app
+  [62]: http://martinbrochhaus.com/tox.html
+  [63]: http://racingtadpole.com/blog/reusable-django-apps/
+  [64]: http://www.lihaoyi.com/post/PrinciplesofAutomatedTesting.html
+  [65]: http://es6-features.org/#Constants
+  [66]: http://blog.csdn.net/hengyunabc/article/details/23401539
+  [67]: http://www.jianshu.com/p/af406cb819e5
+  [68]: http://timyang.net/data/key-list-pagination-ii/
+  [69]: http://coolshell.cn/articles/17416.html
+  [70]: http://kircher-schwanninger.de/michael/publications/Caching.pdf
+  [71]: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+  [72]: https://timyang.net/data/cache-failure/
+  [73]: http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#versioning
+  [74]: https://bourgeois.me/rest/
+  [75]: https://www.sitepoint.com/best-practices-rest-api-scratch-introduction/
+  [76]: http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/
+  [77]: http://www.ruanyifeng.com/blog/2014/05/restful_api.html
+  [78]: http://www.ruanyifeng.com/blog/2011/09/restful
+  [79]: http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208060670&idx=1&sn=ce67b8896985e8448137052b338093e0&scene=21#wechat_redirect
+  [80]: http://racksburg.com/choosing-an-http-status-code/
+  [81]: http://www.ituring.com.cn/article/208878
+  [82]: https://codeplanet.io/principles-good-restful-api-design/
+  [83]: http://www.nirmata.com/2013/10/rest-apis-part-1/
+  [84]: https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
+  [85]: https://restful-api-design.readthedocs.io/en/latest/
+  [86]: http://farazdagi.com/blog/2014/rest-long-running-jobs/
+  [87]: http://stackoverflow.com/questions/33009721/long-running-rest-api-with-queues
+  [88]: https://github.com/aisuhua/restful-api-design-references
+  [89]: http://www.jianshu.com/p/261cad07f02b
+  [90]: http://blog.sae.sina.com.cn/archives/370
+  [91]: http://novoland.github.io/%E8%AE%BE%E8%AE%A1/2015/08/17/Restful%20API%20%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.html
+  [92]: http://www.restapitutorial.com/
+  [93]: https://segmentfault.com/a/1190000005924733
+  [94]: https://geemus.gitbooks.io/http-api-design/content/en/
+  [95]: http://blog.octo.com/en/design-a-rest-api/
+  [96]: http://www.apuchkov.com/choosing-the-best-approach-for-partial-updates-in-rest-api/
+  [97]: https://www.toptal.com/api-developers/5-golden-rules-for-designing-a-great-web-api
+  [98]: https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet#General_Recommendation:_Synchronizer_Token_Pattern
+  [99]: https://mathieu.fenniak.net/is-your-web-api-susceptible-to-a-csrf-exploit/
+  [100]: https://www.hidefsoftware.co.uk/2016/12/25/the-caching-antipattern/?utm_source=wanqu.co&utm_campaign=Wanqu%20Daily&utm_medium=social
+  [101]: http://geek.csdn.net/news/detail/201132
+  [102]: https://martinfowler.com/articles/web-security-basics.html
+  [103]: https://developer.paypal.com/docs/api/
+  [104]: https://www.twilio.com/docs/api
+  [105]: https://github.com/waylau/RestDemo
+  [106]: https://blog.imaginea.com/stateless-authentication-implementation-using-jwt-nginxlua-and-memcached/
+  [107]: https://www.elastic.co/blog/playing-http-tricks-nginx
+  [108]: https://www.nczonline.net/blog/2009/05/05/http-cookies-explained/
+  [109]: http://bubkoo.com/2014/04/21/http-cookies-explained/
+  [110]: https://tech.meituan.com/MT_Leaf.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+  [111]: https://engineering.instagram.com/sharding-ids-at-instagram-1cf5a71e5a5c
+  [112]: https://engineeringblog.yelp.com/2016/08/streaming-mysql-tables-in-real-time-to-kafka.html
+  [113]: https://blog.deepstreamhub.com/an-overview-of-realtime-protocols-7d0489778c12
+  [114]: http://www.blogjava.net/ajoo/category/6968.html
+  [115]: http://www.redotheweb.com/2015/11/09/api-security.html
+  [116]: https://coderwall.com/p/uwtekg/an-overview-of-dealing-with-git-and-ssh-keys
+  [117]: https://mp.weixin.qq.com/s?__biz=MzIwMzg1ODcwMw==&mid=2247486271&amp;idx=1&amp;sn=aa1341e27fb3ce11c47879b1f5598c6c&source=41#wechat_redirect
+  [118]: https://medium.freecodecamp.com/how-we-fine-tuned-haproxy-to-achieve-2-000-000-concurrent-ssl-connections-d017e61a4d27
