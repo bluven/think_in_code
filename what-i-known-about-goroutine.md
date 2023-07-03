@@ -62,8 +62,6 @@ https://medium.com/geekculture/linux-cpu-context-switch-deep-dive-764bfdae4f01
 * M: 线程，负责执行协程，必须有P才能执行。遇到一些阻塞性操作(系统调用)，可能会被剥夺P，调度器会另建线程执行其他的协程。
 * P: 处理器，可以被视为运行在线程上的本地调度器。P数量是固定的，可以被配置，默认是CPU核数的双倍。M必须获取P后才能处理协程，直到因为阻塞被剥夺P。提出P模型的好处时，负责调度的资源固定，无论是Work Stealing还是GC，只需要处理这些P上的资源就够了。
 
-
-
 #### 协程
 
 三种状态:
@@ -90,14 +88,16 @@ https://medium.com/geekculture/linux-cpu-context-switch-deep-dive-764bfdae4f01
 
 获取协程的先后顺序:
 
-* Local
-* Global
+* Local (实际上会周期性地从全局队列获取协程，避免全局队列上的协程得不到调度)
+* Global(跟其他P平分，但最多只取局部队列容量的一半https://www.cnblogs.com/abozhang/p/10867346.html)
 * Network Poller
-* Work Stealing
+* Work Stealing(如果找不到可偷的协程，就会释放P，然后陷入睡眠)
 
 ![Go Scheduler Model](https://b3019442.smushcdn.com/3019442/wp-content/uploads/2022/07/go-golang-scheduler-example.png?lossy=1&strip=1&webp=1)
 
 
+
+Go运行时有一个协程池，运行完的协程不会直接销毁，而是回收到协程池备用。
 
 #### 抢占式调度
 
@@ -116,6 +116,10 @@ Go 1.1版本前的调度器不支持抢占式调度，程序只能依靠协程�
 * 如果 `stackguard0` 是 `StackPreempt`，就会触发抢占让出当前线程；
 
 ##### 基于信号的抢占式调度
+
+### 主动让出调度
+
+使用Gosched可以将当前协程可以主动让出调度资源，将当前协程放到全局队列的尾部https://www.cnblogs.com/abozhang/p/10938292.html
 
 ### netpoller
 
